@@ -77,7 +77,7 @@ while True:
     '5) Upload an existing folder\n'
     '6) Upload an existing file to a folder\n'
     '7) Quit\n')
-    
+
     if (command == "1"):
         ListAllFiles()
     elif (command == "2"):
@@ -87,7 +87,7 @@ while True:
     elif (command == "4"):
         UploadExistingFile()
     elif (command == "5"):
-        UploadExistingFolder()  
+        UploadExistingFolder()
     elif (command == "6"):
         UploadExistingFileToFolder()
     elif (command == "7"):
